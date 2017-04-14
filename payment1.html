@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Payment </title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, 
+initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="payment1.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <style>
+    /* Remove the navbar's default rounded borders and increase the 
+bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+      background-color: #4CAF50;
+    }
+    .form-inline
+    {
+      float: right;
+      padding-right: 20px;
+    }
+   img{
+   	width: 100px;
+   	height: 120px;
+   	padding-left: 5px;
+   }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #4CAF50;
+      padding: 104px;
+      width: 100%;
+
+    }
+    form{
+    	float: right;
+    }
+  </style>
+</head>
+<body>
+<div class="jumbotron">
+ <img src="icon1.png">
+  <div class="container text-center">
+    <h1>Medicine delivery service</h1>      
+    <p>Mission, Vission & Values</p>
+  </div>
+  <form class="form-inline">
+    <input type=" " class="form-control" size="30" placeholder="searching....">
+    <button type="button" class="btn btn-danger">Search</button>
+  </form>
+
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" 
+data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                      
+  
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon 
+glyphicon-user"></span> Registration</a></li>
+        <li><a href="#"><span class="glyphicon 
+glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="paymentCont">
+            <div class="headingWrap">
+                <h3 class="headingTop text-center">Select Your Payment Method</h3>  
+            </div>
+            <div class="paymentWrap">
+              <div class="btn-group paymentBtnGroup btn-group-justified" data-toggle="buttons">
+
+                      <label class="btn paymentMethod active">
+                        <div class="method dbbl"></div>
+                          <input type="radio" name="options" checked>
+                      </label>
+
+                      <label class="btn paymentMethod">
+                        <div class="method master-card"></div>
+                          <input type="radio" name="options"> 
+                      </label>
+
+                      <label class="btn paymentMethod">
+                        <div class="method bkash"></div>
+                          <input type="radio" name="options">
+                      </label>
+
+                       <label class="btn paymentMethod">
+                        <div class="method vishwa"></div>
+                          <input type="radio" name="options"> 
+                      </label>
+                   
+                  </div>        
+            </div>
+            <div class="footerNavWrap clearfix">
+              <div class="btn btn-success pull-left btn-fyi"><span class="glyphicon glyphicon-chevron-left"></span> CONTINUE SHOPPING</div>
+              <div class="btn btn-success pull-right btn-fyi">CHECKOUT<span class="glyphicon glyphicon-chevron-right"></span></div>
+            </div>
+          </div>
+    
+  </div>
+</div>
+<h1></h1>
+<footer class="container-fluid text-center">
+   
+  
+</footer>
+</body>
+</html>

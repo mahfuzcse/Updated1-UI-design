@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Order</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+    /* Remove the navbar's default rounded borders and increase the 
+bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+      background-color: #4CAF50;
+    }
+   
+    select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+    
+    form{
+    	float: right;
+    }
+
+    .form-inline
+    {
+      float: right;
+      padding-right: 20px;
+    }
+    
+
+    div.form-group{  
+     padding: 10px;
+    }
+
+    div.form-group2{
+      
+     padding: 10px;
+    }
+    .headd
+        {
+          width: 350px;
+          margin:auto;
+          border:3px outset blue;
+          font-family: sans-serif;
+          font-size:25px;
+
+        }
+    footer {
+      background-color: #4CAF50;
+      padding: 104px;
+      width: 100%;
+
+    }
+  </style>
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Medicine delivery service</h1>      
+    <p>Mission, Vission & Values</p>
+  </div>
+  <form class="form-inline">
+    <input type=" " class="form-control" size="30" placeholder="serching...">
+    <button type="button" class="btn btn-danger">Search</button>
+  </form>
+
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" 
+data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                      
+  
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="BootstrapTemplete.html">Home</a></li>
+        <li class="active"><a href="order.html">Order</a></li>      
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="registration.html"><span class="glyphicon 
+glyphicon-user"></span> Registration</a></li>
+        <li><a href="#"><span class="glyphicon 
+glyphicon-shopping-cart"></span> News</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+        <form class="form-inline">
+    
+                  <div class="form-group">
+                    <label>Search & select medicine:
+                    <input type="Src-med" class="form-control" id="Src-med"  placeholder="Search medicine">
+                  </div>
+
+                  <div class="form-group">
+                     Selected medicine:
+                     <input type="text" class="form-control" id="txt" placeholder="Selected medicine">
+                  </div>               
+                  
+                  </label>
+
+                 <div class="form-group2">
+                     <label>Select branch:
+                           <select id="Division" name="Division">
+                                    <option value="Raj">Rajshahi</option>
+                                    <option value="dh">Dhaka</option>
+                                    <option value="rp">Rangpur</option>                   
+                                    <option value="kh">Khulna</option>
+                           </select>
+                 </div>
+                  <div class="form-group2">
+                            Select location: 
+                           <select id="town" name="town">
+                                    <option value="Raj">RU-campus</option>
+                                    <option value="dh">RUET-campus</option>
+                                    <option value="rp">RMC-campus</option>                   
+                                    <option value="kh">Uposhohor</option>
+                                    <option value="kh">Banessar</option>                                   
+                            </select><p>km(per km 50 Tk)</p>                
+                  </div>
+                  </label>
+
+                  <div>
+                    <label>
+                      <button type="submit" class="btn btn-info">Medicine cost: </button>
+                      <input type="output-text" class="form-control" id="txt" placeholder="cost">
+                      <button type="submit" class="btn btn-info">Carrying cost: </button>
+                      <input type="output-text" class="form-control" id="txt" placeholder="cost">
+                    </label>
+                  </div>
+
+                  <div>
+                    <div class="form-group2">
+                    <label for="sel-branch">Select delivery date:
+                    <select id="country" name="country">
+                           <option value="date">dd/mm/yyyy</option>                        
+                    </select>
+                  </div>
+                  </label>
+                  <div>
+                  <h4>Total cost: </h4>
+                      <input type="output-text" class="form-control" id="txt" placeholder=" medicine & carrying cost">
+                 </div><h1></h1>
+                  <label>
+                     <button type="button" class="btn btn-success btn-lg" ><a href="payment1.html">Pay now with credit card</a></button></form><h2></h2>
+                     <h2 class="headd">For payment with M-banking </h2>
+                     <h4>DBBL/bKash NO. :01738213397</h4>
+    
+                     </label>
+                     </form>
+ 
+</div>
+</div>
+<h1></h1>
+<footer class="container-fluid text-center">
+  
+</footer>
+</body>
+</html>
